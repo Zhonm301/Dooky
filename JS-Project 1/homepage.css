@@ -1,0 +1,73 @@
+body{
+    background-color: rgba(130, 160, 195, 0.856);
+    background-image: 
+      linear-gradient(to right, rgba(255, 255, 255, 0.267) 1px, transparent 1px),
+      linear-gradient(to bottom,rgba(255, 255, 255, 0.246) 1px, transparent 1px);
+    background-size: 6px 6px; 
+  }
+
+  .next{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  h1{
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-family: "bitcount-grid-single-square", sans-serif;
+    font-size: 180px;
+    line-height: 90%;
+    text-shadow: 8px 8px rgb(0, 64, 255);
+    color: rgba(238, 246, 193, 0.69);
+    margin: 5%;
+    transition: .15s ease-in-out;
+  }
+
+  h1:hover{
+    text-shadow: rgb(252, 157, 255) 5px 5px;
+  }
+
+  .next-page{
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-family: "cofo-sans-pixel", sans-serif;
+    color: rgb(16, 107, 255);
+    width: 190px;
+    height: 80px;
+    background-color: aliceblue;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 55px;
+
+  }
+
+  .next-page:hover{
+    background-color: rgba(213, 229, 242, 0.695);
+    transform: rotate(10deg);
+    color: rgba(16, 108, 255, 0.716);
+  }
+
+  .snow-border{
+    position: absolute;
+    width: 1500px;
+    height: 880px;
+  }
+
+  .actual-snow{
+    width: 30px;
+    height: 30px;
+    
+
+    box-shadow: 
+    0px 850px rgb(255, 255, 255), 33px 850px white, 66px 850px white, 99px 850px white, 132px 850px white
+    ;
+  }
